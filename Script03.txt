@@ -1,0 +1,20 @@
+; Script 3
+;
+; Test of hash table building and feature name searches.
+;
+; Specify boundaries of coordinate space:
+world	0800400W	0792100W	375230N	383530N
+;
+; Import a smallish DB file:
+import	VA_Highland.txt
+;
+; Check the location and name/state indices:
+show	hash
+;
+; Try a few feature name searches:
+what_is	Cabin Hollow	VA
+what_is	Mudlick Draft	VA
+what_is	Bear Mountain	VA
+;
+; Exit
+quit	
