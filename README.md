@@ -23,4 +23,4 @@ My coordinate index handles my operations with prQuadTree.
 It instantiates a prQuadTree, and has methods that deal with the prQuadInteral such as whatIsAt, whatIsIn, show, convertLat, convertLong, setWorld, and getters for the xMin, xMax, yMin, yMax.
 
 How the code runs is it takes three arguments:
-    java GIS <database file name> <command script file name> <log file name>
+    java GIS database file name, command script file name, log file name
